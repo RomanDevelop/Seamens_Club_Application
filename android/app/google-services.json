@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "335523645070",
+    "project_id": "seamensclub-65a07",
+    "storage_bucket": "seamensclub-65a07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335523645070:android:c2e3970c81140230ac2bdf",
+        "android_client_info": {
+          "package_name": "com.romankliakhin.seamensclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335523645070-atri9o7unjlht1j6jn5ab9o2hcv6aa8d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.romankliakhin.seamensclub",
+            "certificate_hash": "5dca9a9d3f77c6271b4ac82a7c0abc615e70943c"
+          }
+        },
+        {
+          "client_id": "335523645070-h1fva3t9jnujmn2dh08fi6pcclnb0q9k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.romankliakhin.seamensclub",
+            "certificate_hash": "3890d23792a159ce073643c159b98a17319b2a36"
+          }
+        },
+        {
+          "client_id": "335523645070-55j94762427ltemqe6pdhnkdisoeq1rv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANz5fsFuzVrdwnAgwCkK2eamvfUxDTyXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335523645070-55j94762427ltemqe6pdhnkdisoeq1rv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "335523645070-bjl7g4ndvc6v970mg824k0vvsk8tdnkn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.romankliakhin.seamensclub"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
