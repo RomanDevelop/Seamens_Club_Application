@@ -30,7 +30,7 @@ class _Tab0State extends State<Tab0> {
         physics: AlwaysScrollableScrollPhysics(),
         child: Column(
           children: [
-            //SearchBar(),
+            CostomSearchBar(),
             Featured(),
             PopularArticles(),
             RecentArticles()
