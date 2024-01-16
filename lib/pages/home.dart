@@ -6,7 +6,7 @@ import 'package:news_app/blocs/notification_bloc.dart';
 import 'package:news_app/pages/categories.dart';
 import 'package:news_app/pages/explore.dart';
 import 'package:news_app/pages/profile.dart';
-import 'package:news_app/pages/seamens_club_support.dart';
+import 'package:news_app/pages/chat_gpt_screen.dart';
 import 'package:news_app/services/notification_service.dart';
 import 'package:provider/provider.dart';
 import 'package:easy_localization/easy_localization.dart';
@@ -88,7 +88,7 @@ class _HomePageState extends State<HomePage> {
           physics: NeverScrollableScrollPhysics(),
           children: <Widget>[
             Explore(),
-            SeamenSClubSupport(),
+            ChatGPTScreen(),
             Categories(),
             ProfilePage()
           ],
