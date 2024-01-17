@@ -1,5 +1,6 @@
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:flutter/material.dart';
+import 'package:news_app/blocs/gpt_chat_bloc.dart';
 import 'package:news_app/pages/splash.dart';
 import 'package:provider/provider.dart';
 import 'package:easy_localization/easy_localization.dart';
@@ -38,15 +39,14 @@ class MyApp extends StatelessWidget {
         builder: (_, mode, child) {
           return MultiProvider(
             providers: [
+              ChangeNotifierProvider<GptChatBloc>(
+                  create: (context) => GptChatBloc()),
               ChangeNotifierProvider<SignInBloc>(
-                create: (context) => SignInBloc(),
-              ),
+                  create: (context) => SignInBloc()),
               ChangeNotifierProvider<CommentsBloc>(
-                create: (context) => CommentsBloc(),
-              ),
+                  create: (context) => CommentsBloc()),
               ChangeNotifierProvider<BookmarkBloc>(
-                create: (context) => BookmarkBloc(),
-              ),
+                  create: (context) => BookmarkBloc()),
               ChangeNotifierProvider<SearchBloc>(
                   create: (context) => SearchBloc()),
               ChangeNotifierProvider<FeaturedBloc>(
